@@ -23,17 +23,17 @@ div{
 .textbox{
 	background-color:#ffffff;
 	border:none;
-	width:20%;
+	width:15em;
 	opacity:0,6;
 	border-radius: 0.48em;
-	height:5%;
+	height:2em;
 	box-shadow: 1px 1px 10px grey;}
 .centraturatext{
 	margin: 0 auto;
 	width:auto;}
 .cerchiograndi{
-	width:25%;
-	height:25%;
+	width:22em;
+	height:22em;
 }
 ::placeholder{
 	color:blue;
