@@ -1,12 +1,10 @@
 <!doctype html>
 <html>
-
 <head>
 	<title>Erasmus + </title>
 	<link href="../CSS/stiloso.css" rel="stylesheet" type="text/css">
 	<link href="../CSS/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
 	<div class="hero">
 		<nav class="navbar navbar-expand-md navbar-dark navbar-custom p-0" style="box-shadow: 3px 3px 3px grey; height:12%;">
@@ -24,11 +22,10 @@
 				</ul>
 			</div>
 		</nav>
-		<form action="accompagnatori.htm">
-			<p class="titolo">Titolo del progetto: </p><input type="text" name="Titolo" autocomplete="off" placeholder="" class="textbox" id="nome" style="position:absolute;top:15%;left:14%"><br>
-			<p class="ref">Referente del progetto: </p><select class="prof" style="position:absolute;top:25%;left:16%">
-									<option value="vide">Selezionate un docente</option>
-									<option value="p0000525">"ATTIVITA ALTERNATIVA IRC"</option>
+		<form>
+			<p style="position:absolute;top:15%;left:37%;	font-weight: bold;color: white;text-shadow: 1px 1px 20px black;">Dipartimento:</p><input type="text" name="Titolo" autocomplete="off" placeholder="" class="textbox" id="nome" style="position:absolute;top:15%;left:45%"><br>
+			<p class="titolo">Accompagnatore:</p><select class="prof" style="position:absolute;top:15%;left:16%">
+									<option value="vide" disabled selected>Selezionate un docente</option>
 									<option value="p0000406">ADAMO VIRGINIA BARBARA</option>
 									<option value="p0000003">ADRIANI MARCO</option>
 									<option value="p0000484">ALFONSI LEONARDO</option>
@@ -267,12 +264,14 @@
 									<option value="p0000307">VISCONTI MAURO</option>
 									<option value="p0000097">VOLPI MARCELLO - Testamigna Massimo</option>
 								</select><br>
-			<p class="luog">Luogo:</p><input type="text" name="Ref" autocomplete="off" class="textbox" style="position:absolute;top:35%;left:10%;"><br>
-<h4 style=" position:absolute;top:45%;left:2%;color:white;">Dati di Mobilita':</h4>
-			<p style="position:absolute;top:55%;left:12%;	font-weight: bold;color: white;text-shadow: 1px 1px 20px black;">Da: </p><input type="date" name="Titolo" autocomplete="off" placeholder="" class="textbox" id="nome" style="position:absolute;top:55%;left:14%"><br>
-			<p style="position:absolute;top:55%;left:36%;font-weight: bold;color: white;text-shadow: 1px 1px 20px black;">A:</p><input type="date" name="Ref" autocomplete="off" class="textbox" style="position:absolute;top:55%;left:38%"><br>
-			<p style="position:absolute;top:55%;left:2%;font-weight: bold;color: white;text-shadow: 1px 1px 20px black;">Data</p>
-			<p style="position:absolute;top:65%;left:2%;font-weight: bold;color: white;text-shadow: 1px 1px 20px black;">Luogo:</p><input type="text" name="Ref" autocomplete="off" class="textbox" style="position:absolute;top:65%;left:10%;"><br>
+<h4 style=" position:absolute;top:25%;left:40%;color:white;text-align:center;width:20%;">Dati dello Studente:</h4>
+	<input type="text" name="Nome" autocomplete="off" placeholder="Nome" class="textbox" id="nome" style="position:absolute;top:35%;left:20%">
+	<input type="text" name="Cognome" autocomplete="off" placeholder="Cognome" class="textbox" id="nome" style="position:absolute;top:35%;right:20%">
+	<input type="text" name="Data" autocomplete="off" placeholder="Data di Nascita" class="textbox" id="nome" style="position:absolute;top:45%;left:20%">
+	<input type="text" name="Classe" autocomplete="off" placeholder="Classe" class="textbox" id="nome" style="position:absolute;top:45%;right:20%">
+	<input type="text" name="Progetto" autocomplete="off" placeholder="Progetto" class="textbox" id="nome" style="position:absolute;top:55%;left:40%">
+	<input type="button" value="Aggiungi Uno Studente" onclick="location.href='stud.htm'"style="height:2.55em; width:15%;background-color:blue;border-radius: 2em;color:white;position:absolute; top: 65%;left:42.5%;	box-shadow: 1px 1px 10px grey; border:none;box-shadow: 1px 1px 10px black;font-weight: bold;">
+	</div>
 			<div class="centraturatext">
 				<div id="centra1">
 					<input type="submit" value="Avanti" style="height:2.55em;width:100px;background-color:white;border-radius: 2em;position:absolute; bottom: 20px;right: 20px;color:blue; border:none;font-weight: bold; 	box-shadow: 1px 1px 10px black;">
